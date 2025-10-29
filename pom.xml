@@ -17,44 +17,47 @@
     </properties>
 
     <dependencies>
-    <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-controls</artifactId>
-        <version>17.0.9</version>
-    </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>17.0.9</version>
+        </dependency>
 
-
-    
-    <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-fxml</artifactId>
-        <version>17.0.9</version>
-    </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>17.0.9</version>
+        </dependency>
     </dependencies>
 
-    
+    <pluginRepositories>
+        <pluginRepository>
+            <id>openjfx</id>
+            <url>https://openjfx.io/maven/</url>
+        </pluginRepository>
+    </pluginRepositories>
 
     <build>
-    <plugins>
-        <!-- Java compiler plugin -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.10.1</version>
-            <configuration>
-                <release>17</release>
-            </configuration>
-        </plugin>
+        <plugins>
+            <!-- Java compiler plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
+                <configuration>
+                    <release>17</release>
+                </configuration>
+            </plugin>
 
-        <!-- The JavaFX plugin (required for mvn javafx:run) -->
-        <plugin>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-maven-plugin</artifactId>
-            <version>0.0.8</version>
-            <configuration>
-                <mainClass>io.transsafety.Main</mainClass>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+            <!-- The JavaFX plugin (required for mvn javafx:run) -->
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.8</version>
+                <configuration>
+                    <mainClass>io.transsafety.Main</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
