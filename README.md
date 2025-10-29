@@ -4,6 +4,7 @@
 ## 📘 Project Name
 Trans Safety (temp name) 
 A community-driven platform designed to help transgender individuals locate safe, inclusive, and affirming businesses and services. The project connects users to verified resources such as healthcare providers, retail stores, and personal care services—while allowing them to share reviews, highlight safe spaces, and contribute to a supportive network of trusted locations.
+
 ---
 
 ## 👥 Group Members / Contributors
