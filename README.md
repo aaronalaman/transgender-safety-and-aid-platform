@@ -42,7 +42,6 @@ Transgender individuals often face challenges finding safe, affirming, and inclu
 
 ---
 
-## 📅 Week-by-Week Plan
 ## 🗓️ Schedule Alignment & Progress Review  
 
 | **Week** | **Milestone / Deliverables** | **Owners** | **Evidence (PRs / Links / Demos)** | **Status** |
