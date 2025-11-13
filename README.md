@@ -68,5 +68,11 @@ A feature is **done** when:
 
 ## 💻 How to Run
 ***WIP***
+Note (will finalize for submission later):
+- java
+- mvn
+- javafx
+- mongodb driver 
+- mongo compass environment download
 
 ---
